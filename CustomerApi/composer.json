@@ -1,0 +1,17 @@
+{
+  "name": "alving/customerapi",
+  "description": "Custom API REST endpoint which response with a list of unique product names which the customer has ever purchased",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "Commercial"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "AlvinG\\CustomerApi\\": ""
+    }
+  }
+}
